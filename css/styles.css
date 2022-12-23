@@ -6,6 +6,7 @@
   --color-text-hero: #ffffff;
   --color-text-footer: #e7e9fc;
   --background-color-btn-hero: #4d5ae5;
+  --background-color-btn-hero-hover: #404bbf;
   --color-text-features-p: #434455;
 }
 
@@ -64,7 +65,7 @@ ul {
   color: var(--color-text-hero);
 }
 .hero button {
-  background-color: ;
+  background-color: var(--background-color-btn-hero);
   color: var(--color-text-hero);
   line-height: 1.5;
   border-radius: 4px;
@@ -73,7 +74,7 @@ ul {
 }
 .hero button:hover,
 .hero button:focus {
-  background-color: var(background-color-btn-hero);
+  background-color: var(--background-color-btn-hero-hover);
 }
 .text-features-title {
   font-weight: 500;
