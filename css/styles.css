@@ -113,6 +113,8 @@ footer {
   background-color: #f4f4fd;
   color: #4d5ae5;
   border-color: #e7e9fc;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -120,4 +122,5 @@ footer {
 .filter button:focus {
   background-color: #404bbf;
   color: #ffffff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
